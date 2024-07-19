@@ -1,0 +1,21 @@
+2024-07-19 11:25:05.205 [info] 로그 수준: Info
+2024-07-19 11:25:05.206 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-07-19 11:25:05.206 [info] "2.34.1"에서 git "git"을(를) 사용하는 중
+2024-07-19 11:25:05.206 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-19 11:25:05.206 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.207 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-19 11:25:05.207 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.219 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-19 11:25:05.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.225 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-19 11:25:05.225 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.229 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-19 11:25:05.229 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.232 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-19 11:25:05.232 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.234 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-19 11:25:05.234 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.237 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-19 11:25:05.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-19 11:25:05.241 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-19 11:25:05.241 [info] fatal: not a git repository (or any of the parent directories): .git

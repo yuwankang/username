@@ -1,0 +1,45 @@
+2024-07-10 23:30:35.513 [info] 
+
+
+
+
+2024-07-10 23:30:35.535 [info] Extension host agent started.
+2024-07-10 23:30:35.610 [info] [<unknown>][fafc9acd][ManagementConnection] New connection established.
+2024-07-10 23:30:35.613 [info] [<unknown>][cdc88e4f][ExtensionHostConnection] New connection established.
+2024-07-10 23:30:35.701 [info] [<unknown>][cdc88e4f][ExtensionHostConnection] <1213> Launched Extension Host Process.
+2024-07-10 23:31:13.996 [info] [<unknown>][81f3ad6b][ExtensionHostConnection] New connection established.
+2024-07-10 23:31:13.998 [info] [<unknown>][81f3ad6b][ExtensionHostConnection] <1359> Launched Extension Host Process.
+2024-07-10 23:31:13.999 [info] [<unknown>][094bd82e][ManagementConnection] New connection established.
+2024-07-10 23:31:35.521 [info] [<unknown>][fafc9acd][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 23:35:35.546 [info] New EH opened, aborting shutdown
+2024-07-10 23:35:35.547 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/username/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-10 23:36:18.179 [info] [<unknown>][cdc88e4f][ExtensionHostConnection] <1213> Extension Host Process exited with code: 0, signal: null.
+2024-07-11 01:00:45.800 [info] [<unknown>][fafc9acd][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-11 01:00:45.801 [info] [<unknown>][ec5f4b19][ExtensionHostConnection] New connection established.
+2024-07-11 01:00:45.804 [info] [<unknown>][ec5f4b19][ExtensionHostConnection] <1804> Launched Extension Host Process.
+2024-07-11 01:00:45.804 [info] [<unknown>][b32079f0][ManagementConnection] New connection established.
+2024-07-11 01:00:45.910 [info] Installing extensions...
+2024-07-11 01:00:46.555 [info] Installing extension 'ms-ceintl.vscode-language-pack-ko'...
+2024-07-11 01:00:46.557 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+2024-07-11 01:00:46.599 [info] Installing extension: ms-ceintl.vscode-language-pack-ko {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/username/.vscode-server/extensions/extensions.json","external":"file:///home/username/.vscode-server/extensions/extensions.json","path":"/home/username/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.0","date":"2024-07-01T18:53:15.739Z"}}
+2024-07-11 01:00:48.880 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-ko: Success. Executed: true. Duration: 1777ms.
+2024-07-11 01:00:49.027 [info] Extracted extension to file:///home/username/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.91.2024071009: ms-ceintl.vscode-language-pack-ko
+2024-07-11 01:00:49.040 [info] Renamed to /home/username/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.91.2024071009
+2024-07-11 01:00:49.046 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+2024-07-11 01:00:49.063 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko file:///home/username/.vscode-server/extensions/extensions.json
+2024-07-11 01:00:49.064 [info] Extension 'ms-ceintl.vscode-language-pack-ko' v1.91.2024071009 was successfully installed.
+2024-07-11 01:01:03.254 [info] [<unknown>][094bd82e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-11 01:05:49.189 [info] [<unknown>][fafc9acd][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-11 01:05:49.221 [info] [<unknown>][81f3ad6b][ExtensionHostConnection] <1359> Extension Host Process exited with code: 0, signal: null.
+2024-07-11 02:00:09.836 [info] [<unknown>][b32079f0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-11 02:00:43.278 [info] [<unknown>][094bd82e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-11 02:00:43.278 [info] [<unknown>][b32079f0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-11 02:00:43.278 [info] [<unknown>][7340368e][ManagementConnection] New connection established.
+2024-07-11 02:00:43.281 [info] [<unknown>][1300f1e8][ExtensionHostConnection] New connection established.
+2024-07-11 02:00:43.285 [info] [<unknown>][1300f1e8][ExtensionHostConnection] <2044> Launched Extension Host Process.
+2024-07-11 02:01:18.489 [info] [<unknown>][7340368e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-11 02:05:46.236 [info] [<unknown>][094bd82e][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-11 02:05:46.239 [info] [<unknown>][b32079f0][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-11 02:05:47.253 [info] [<unknown>][ec5f4b19][ExtensionHostConnection] <1804> Extension Host Process exited with code: 0, signal: null.

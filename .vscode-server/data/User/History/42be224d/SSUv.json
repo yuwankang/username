@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "git.enableSmartCommit": true,
+    "remote.SSH.remotePlatform": {
+        "ubuntu": "linux"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false
+}

@@ -1,0 +1,25 @@
+2024-07-18 08:30:19.141 [info] 로그 수준: Info
+2024-07-18 08:30:19.141 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-07-18 08:30:19.141 [info] "2.34.1"에서 git "git"을(를) 사용하는 중
+2024-07-18 08:30:19.141 [info] > git rev-parse --show-toplevel [23ms]
+2024-07-18 08:30:19.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.144 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-18 08:30:19.144 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.150 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 08:30:19.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.157 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 08:30:19.157 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.222 [info] > git rev-parse --show-toplevel [61ms]
+2024-07-18 08:30:19.222 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.227 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-18 08:30:19.227 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.230 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-18 08:30:19.230 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.233 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-18 08:30:19.233 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:19.239 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 08:30:19.239 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 08:30:29.347 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-18 08:30:29.347 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-18 09:14:02.817 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-18 09:14:02.817 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,15 @@
+2024-07-19 14:12:40.225 [info] Extension host with pid 1566 started
+2024-07-19 14:12:40.226 [error] Error: EEXIST: file already exists, open '/home/username/.vscode-server/data/User/workspaceStorage/04eac21a6c4acd2155c6119021698a8e/vscode.lock'
+2024-07-19 14:12:40.322 [info] Lock '/home/username/.vscode-server/data/User/workspaceStorage/04eac21a6c4acd2155c6119021698a8e/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-19 14:12:40.380 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-19 14:12:40.386 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-19 14:12:40.398 [info] Lock '/home/username/.vscode-server/data/User/workspaceStorage/04eac21a6c4acd2155c6119021698a8e/vscode.lock': The pid 1313 appears to be gone.
+2024-07-19 14:12:40.398 [info] Lock '/home/username/.vscode-server/data/User/workspaceStorage/04eac21a6c4acd2155c6119021698a8e/vscode.lock': Deleting a stale lock.
+2024-07-19 14:12:40.730 [info] Lock '/home/username/.vscode-server/data/User/workspaceStorage/04eac21a6c4acd2155c6119021698a8e/vscode.lock': Lock acquired.
+2024-07-19 14:12:40.873 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-19 14:12:41.039 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-19 14:12:41.040 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-19 14:12:41.830 [info] Eager extensions activated
+2024-07-19 14:12:41.830 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 14:12:41.830 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 14:14:14.382 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

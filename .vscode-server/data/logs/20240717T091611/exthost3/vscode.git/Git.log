@@ -1,0 +1,482 @@
+2024-07-17 09:19:01.737 [info] 로그 수준: Info
+2024-07-17 09:19:01.737 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-07-17 09:19:01.737 [info] "2.34.1"에서 git "git"을(를) 사용하는 중
+2024-07-17 09:19:01.737 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-17 09:19:01.737 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 09:19:01.740 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-17 09:19:01.740 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 09:19:01.742 [info] > git rev-parse --show-toplevel [0ms]
+2024-07-17 09:19:01.743 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 09:19:01.745 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-17 09:19:01.745 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 09:19:01.748 [info] > git rev-parse --show-toplevel [0ms]
+2024-07-17 09:19:01.748 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 09:19:01.753 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-17 09:19:01.753 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 09:19:01.755 [info] > git rev-parse --show-toplevel [0ms]
+2024-07-17 09:19:01.755 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 10:07:18.157 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-17 10:07:18.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 10:07:48.047 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-17 10:07:48.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 10:17:20.507 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-17 10:17:20.507 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-17 11:17:41.371 [info] > git init -b main [20ms]
+2024-07-17 11:17:41.374 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-17 11:17:41.377 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-07-17 11:17:41.385 [info] Open repository: /home/username
+2024-07-17 11:17:41.395 [info] No remotes found in the git config file.
+2024-07-17 11:17:41.396 [info] > git config --get commit.template [3ms]
+2024-07-17 11:17:41.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:17:41.397 [warning] No such branch: main.
+2024-07-17 11:17:41.479 [info] > git status -z -uall [79ms]
+2024-07-17 11:17:41.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [418ms]
+2024-07-17 11:17:41.920 [warning] No such branch: main.
+2024-07-17 11:17:41.955 [info] No remotes found in the git config file.
+2024-07-17 11:17:41.966 [info] > git config --get commit.template [46ms]
+2024-07-17 11:17:41.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-07-17 11:17:41.966 [warning] No such branch: main.
+2024-07-17 11:17:41.999 [info] > git status -z -uall [29ms]
+2024-07-17 11:17:42.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:17:42.035 [warning] No such branch: main.
+2024-07-17 11:17:42.371 [info] > git show --textconv :02.RDBMS/sqlLab.sql [5ms]
+2024-07-17 11:17:42.373 [info] > git ls-files --stage -- /home/username/02.RDBMS/sqlLab.sql [4ms]
+2024-07-17 11:17:42.868 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-17 11:17:43.051 [info] > git ls-files --stage -- /home/username/02.RDBMS/sqlLab.sql [1ms]
+2024-07-17 11:17:43.057 [info] > git show --textconv :02.RDBMS/sqlLab.sql [2ms]
+2024-07-17 11:17:47.352 [info] > git add -A -- . [5964ms]
+2024-07-17 11:17:47.408 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [54ms]
+2024-07-17 11:17:47.408 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-07-17 11:17:47.410 [info] > git config --get-all user.name [1ms]
+2024-07-17 11:17:47.414 [info] No remotes found in the git config file.
+2024-07-17 11:17:47.414 [info] > git config --get commit.template [2ms]
+2024-07-17 11:17:47.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:17:47.415 [warning] No such branch: main.
+2024-07-17 11:17:47.430 [info] > git status -z -uall [13ms]
+2024-07-17 11:17:47.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-07-17 11:17:47.461 [warning] No such branch: main.
+2024-07-17 11:17:48.884 [info] > git ls-files --stage -- /home/username/02.RDBMS/sqlLab.sql [3ms]
+2024-07-17 11:17:48.887 [info] > git cat-file -s 41f035a028822b4bc9dd36c5830d2bcf9c52a8d2 [1ms]
+2024-07-17 11:17:48.896 [info] > git show --textconv :02.RDBMS/sqlLab.sql [2ms]
+2024-07-17 11:17:50.040 [info] No remotes found in the git config file.
+2024-07-17 11:17:50.041 [info] > git config --get commit.template [3ms]
+2024-07-17 11:17:50.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:17:50.042 [warning] No such branch: main.
+2024-07-17 11:17:50.060 [info] > git status -z -uall [16ms]
+2024-07-17 11:17:50.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-17 11:17:50.088 [warning] No such branch: main.
+2024-07-17 11:17:53.346 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-17 11:17:55.097 [info] No remotes found in the git config file.
+2024-07-17 11:17:55.099 [info] > git config --get commit.template [5ms]
+2024-07-17 11:17:55.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:17:55.100 [warning] No such branch: main.
+2024-07-17 11:17:55.117 [info] > git status -z -uall [15ms]
+2024-07-17 11:17:55.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-07-17 11:17:55.146 [warning] No such branch: main.
+2024-07-17 11:17:57.605 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-17 11:17:58.543 [info] > git check-ignore -v -z --stdin [5ms]
+2024-07-17 11:18:00.156 [info] No remotes found in the git config file.
+2024-07-17 11:18:00.157 [info] > git config --get commit.template [4ms]
+2024-07-17 11:18:00.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:18:00.158 [warning] No such branch: main.
+2024-07-17 11:18:00.176 [info] > git status -z -uall [17ms]
+2024-07-17 11:18:00.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-07-17 11:18:00.205 [warning] No such branch: main.
+2024-07-17 11:18:02.871 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-17 11:18:05.184 [info] > git check-ignore -v -z --stdin [47ms]
+2024-07-17 11:18:05.214 [info] No remotes found in the git config file.
+2024-07-17 11:18:05.215 [info] > git config --get commit.template [4ms]
+2024-07-17 11:18:05.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:18:05.215 [warning] No such branch: main.
+2024-07-17 11:18:05.231 [info] > git status -z -uall [14ms]
+2024-07-17 11:18:05.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-07-17 11:18:05.260 [warning] No such branch: main.
+2024-07-17 11:18:20.522 [info] No remotes found in the git config file.
+2024-07-17 11:18:20.522 [info] > git config --get commit.template [3ms]
+2024-07-17 11:18:20.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:18:20.523 [warning] No such branch: main.
+2024-07-17 11:18:20.546 [info] > git status -z -uall [15ms]
+2024-07-17 11:18:20.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-07-17 11:18:20.574 [warning] No such branch: main.
+2024-07-17 11:18:25.583 [info] No remotes found in the git config file.
+2024-07-17 11:18:25.584 [info] > git config --get commit.template [5ms]
+2024-07-17 11:18:25.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:18:25.585 [warning] No such branch: main.
+2024-07-17 11:18:25.606 [info] > git status -z -uall [19ms]
+2024-07-17 11:18:25.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:18:25.634 [warning] No such branch: main.
+2024-07-17 11:18:28.314 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [8ms]
+2024-07-17 11:18:28.314 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-07-17 11:18:28.317 [info] > git config --get-all user.name [0ms]
+2024-07-17 11:18:28.321 [info] No remotes found in the git config file.
+2024-07-17 11:18:28.321 [info] > git config --get commit.template [2ms]
+2024-07-17 11:18:28.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:18:28.321 [warning] No such branch: main.
+2024-07-17 11:18:28.337 [info] > git status -z -uall [14ms]
+2024-07-17 11:18:28.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:18:28.362 [warning] No such branch: main.
+2024-07-17 11:18:31.005 [info] > git ls-files --stage -- /home/username/02.RDBMS/sqlLab.sql [9ms]
+2024-07-17 11:18:31.008 [info] > git cat-file -s 41f035a028822b4bc9dd36c5830d2bcf9c52a8d2 [0ms]
+2024-07-17 11:18:31.018 [info] > git show --textconv :02.RDBMS/sqlLab.sql [2ms]
+2024-07-17 11:18:32.082 [info] No remotes found in the git config file.
+2024-07-17 11:18:32.083 [info] > git config --get commit.template [4ms]
+2024-07-17 11:18:32.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-17 11:18:32.085 [warning] No such branch: main.
+2024-07-17 11:18:32.108 [info] > git status -z -uall [21ms]
+2024-07-17 11:18:32.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-17 11:18:32.135 [warning] No such branch: main.
+2024-07-17 11:18:37.144 [info] No remotes found in the git config file.
+2024-07-17 11:18:37.144 [info] > git config --get commit.template [2ms]
+2024-07-17 11:18:37.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:18:37.144 [warning] No such branch: main.
+2024-07-17 11:18:37.160 [info] > git status -z -uall [14ms]
+2024-07-17 11:18:37.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:18:37.187 [warning] No such branch: main.
+2024-07-17 11:18:42.196 [info] No remotes found in the git config file.
+2024-07-17 11:18:42.197 [info] > git config --get commit.template [6ms]
+2024-07-17 11:18:42.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:18:42.198 [warning] No such branch: main.
+2024-07-17 11:18:42.215 [info] > git status -z -uall [15ms]
+2024-07-17 11:18:42.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-17 11:18:42.239 [warning] No such branch: main.
+2024-07-17 11:18:47.245 [info] No remotes found in the git config file.
+2024-07-17 11:18:47.246 [info] > git config --get commit.template [6ms]
+2024-07-17 11:18:47.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:18:47.247 [warning] No such branch: main.
+2024-07-17 11:18:47.263 [info] > git status -z -uall [15ms]
+2024-07-17 11:18:47.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-17 11:18:47.292 [warning] No such branch: main.
+2024-07-17 11:20:23.947 [info] No remotes found in the git config file.
+2024-07-17 11:20:23.948 [info] > git config --get commit.template [6ms]
+2024-07-17 11:20:23.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:20:23.949 [warning] No such branch: main.
+2024-07-17 11:20:23.994 [info] > git status -z -uall [43ms]
+2024-07-17 11:20:24.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2024-07-17 11:20:24.035 [warning] No such branch: main.
+2024-07-17 11:20:29.043 [info] No remotes found in the git config file.
+2024-07-17 11:20:29.045 [info] > git config --get commit.template [4ms]
+2024-07-17 11:20:29.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:20:29.045 [warning] No such branch: main.
+2024-07-17 11:20:29.063 [info] > git status -z -uall [16ms]
+2024-07-17 11:20:29.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-07-17 11:20:29.094 [warning] No such branch: main.
+2024-07-17 11:20:34.102 [info] No remotes found in the git config file.
+2024-07-17 11:20:34.103 [info] > git config --get commit.template [4ms]
+2024-07-17 11:20:34.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:20:34.104 [warning] No such branch: main.
+2024-07-17 11:20:34.120 [info] > git status -z -uall [14ms]
+2024-07-17 11:20:34.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-07-17 11:20:34.150 [warning] No such branch: main.
+2024-07-17 11:20:40.531 [info] No remotes found in the git config file.
+2024-07-17 11:20:40.531 [info] > git config --get commit.template [2ms]
+2024-07-17 11:20:40.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:20:40.532 [warning] No such branch: main.
+2024-07-17 11:20:40.547 [info] > git status -z -uall [14ms]
+2024-07-17 11:20:40.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-07-17 11:20:40.575 [warning] No such branch: main.
+2024-07-17 11:20:45.581 [info] No remotes found in the git config file.
+2024-07-17 11:20:45.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-07-17 11:20:45.581 [warning] No such branch: main.
+2024-07-17 11:20:45.582 [info] > git config --get commit.template [4ms]
+2024-07-17 11:20:45.598 [info] > git status -z -uall [14ms]
+2024-07-17 11:20:45.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:20:45.628 [warning] No such branch: main.
+2024-07-17 11:20:50.638 [info] No remotes found in the git config file.
+2024-07-17 11:20:50.639 [info] > git config --get commit.template [4ms]
+2024-07-17 11:20:50.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:20:50.640 [warning] No such branch: main.
+2024-07-17 11:20:50.661 [info] > git status -z -uall [16ms]
+2024-07-17 11:20:50.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-07-17 11:20:50.687 [warning] No such branch: main.
+2024-07-17 11:20:51.513 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2024-07-17 11:20:55.691 [info] No remotes found in the git config file.
+2024-07-17 11:20:55.691 [info] > git config --get commit.template [3ms]
+2024-07-17 11:20:55.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:20:55.692 [warning] No such branch: main.
+2024-07-17 11:20:55.708 [info] > git status -z -uall [14ms]
+2024-07-17 11:20:55.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:20:55.732 [warning] No such branch: main.
+2024-07-17 11:21:00.741 [info] No remotes found in the git config file.
+2024-07-17 11:21:00.742 [info] > git config --get commit.template [2ms]
+2024-07-17 11:21:00.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:21:00.742 [warning] No such branch: main.
+2024-07-17 11:21:00.759 [info] > git status -z -uall [15ms]
+2024-07-17 11:21:00.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-07-17 11:21:00.792 [warning] No such branch: main.
+2024-07-17 11:21:04.517 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [16ms]
+2024-07-17 11:21:04.517 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-07-17 11:21:04.519 [info] > git config --get-all user.name [0ms]
+2024-07-17 11:21:04.523 [info] No remotes found in the git config file.
+2024-07-17 11:21:04.524 [info] > git config --get commit.template [2ms]
+2024-07-17 11:21:04.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:21:04.524 [warning] No such branch: main.
+2024-07-17 11:21:04.539 [info] > git status -z -uall [13ms]
+2024-07-17 11:21:04.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:21:04.570 [warning] No such branch: main.
+2024-07-17 11:21:06.229 [info] > git config --get commit.template [2ms]
+2024-07-17 11:21:06.231 [info] > git ls-files --stage -- /home/username/02.RDBMS/sqlLab.sql [1ms]
+2024-07-17 11:21:06.237 [info] No remotes found in the git config file.
+2024-07-17 11:21:06.237 [info] > git cat-file -s 41f035a028822b4bc9dd36c5830d2bcf9c52a8d2 [3ms]
+2024-07-17 11:21:06.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:21:06.238 [warning] No such branch: main.
+2024-07-17 11:21:06.251 [info] > git show --textconv :02.RDBMS/sqlLab.sql [3ms]
+2024-07-17 11:21:06.261 [info] > git status -z -uall [21ms]
+2024-07-17 11:21:06.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-07-17 11:21:06.291 [warning] No such branch: main.
+2024-07-17 11:21:11.908 [info] No remotes found in the git config file.
+2024-07-17 11:21:11.913 [info] > git config --get commit.template [7ms]
+2024-07-17 11:21:11.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:21:11.913 [warning] No such branch: main.
+2024-07-17 11:21:11.933 [info] > git status -z -uall [17ms]
+2024-07-17 11:21:11.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-17 11:21:11.960 [warning] No such branch: main.
+2024-07-17 11:21:16.965 [info] No remotes found in the git config file.
+2024-07-17 11:21:16.966 [info] > git config --get commit.template [3ms]
+2024-07-17 11:21:16.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:21:16.967 [warning] No such branch: main.
+2024-07-17 11:21:16.983 [info] > git status -z -uall [15ms]
+2024-07-17 11:21:17.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-07-17 11:21:17.009 [warning] No such branch: main.
+2024-07-17 11:21:21.061 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-17 11:21:22.018 [info] > git config --get commit.template [4ms]
+2024-07-17 11:21:22.019 [info] No remotes found in the git config file.
+2024-07-17 11:21:22.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:21:22.019 [warning] No such branch: main.
+2024-07-17 11:21:22.046 [info] > git status -z -uall [25ms]
+2024-07-17 11:21:22.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-07-17 11:21:22.071 [warning] No such branch: main.
+2024-07-17 11:21:22.861 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-17 11:21:24.608 [info] > git branch [1ms]
+2024-07-17 11:21:24.626 [info] > git rm --cached -r -- . [16ms]
+2024-07-17 11:21:24.626 [info] error: the following files have staged content different from both the
+file and the HEAD:
+    .vscode-server/data/logs/20240717T091611/exthost3/remoteexthost.log
+    .vscode-server/data/logs/20240717T091611/exthost3/vscode.git/Git.log
+(use -f to force removal)
+2024-07-17 11:21:24.630 [info] No remotes found in the git config file.
+2024-07-17 11:21:24.630 [info] > git config --get commit.template [2ms]
+2024-07-17 11:21:24.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:21:24.630 [warning] No such branch: main.
+2024-07-17 11:21:24.645 [info] > git status -z -uall [13ms]
+2024-07-17 11:21:24.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:21:24.670 [warning] No such branch: main.
+2024-07-17 11:21:27.708 [info] No remotes found in the git config file.
+2024-07-17 11:21:27.709 [info] > git config --get commit.template [3ms]
+2024-07-17 11:21:27.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:21:27.710 [warning] No such branch: main.
+2024-07-17 11:21:27.726 [info] > git status -z -uall [15ms]
+2024-07-17 11:21:27.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-07-17 11:21:27.760 [warning] No such branch: main.
+2024-07-17 11:22:05.647 [info] > git config --get commit.template [2ms]
+2024-07-17 11:22:05.648 [info] No remotes found in the git config file.
+2024-07-17 11:22:05.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:05.651 [warning] No such branch: main.
+2024-07-17 11:22:05.671 [info] > git status -z -uall [18ms]
+2024-07-17 11:22:05.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-07-17 11:22:05.714 [warning] No such branch: main.
+2024-07-17 11:22:08.708 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-17 11:22:12.240 [info] > git config --get commit.template [0ms]
+2024-07-17 11:22:12.247 [info] No remotes found in the git config file.
+2024-07-17 11:22:12.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-07-17 11:22:12.248 [warning] No such branch: main.
+2024-07-17 11:22:12.272 [info] > git status -z -uall [22ms]
+2024-07-17 11:22:12.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-07-17 11:22:12.306 [warning] No such branch: main.
+2024-07-17 11:22:17.313 [info] No remotes found in the git config file.
+2024-07-17 11:22:17.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:22:17.315 [warning] No such branch: main.
+2024-07-17 11:22:17.315 [info] > git config --get commit.template [5ms]
+2024-07-17 11:22:17.330 [info] > git status -z -uall [14ms]
+2024-07-17 11:22:17.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-17 11:22:17.356 [warning] No such branch: main.
+2024-07-17 11:22:21.252 [info] > git check-ignore -v -z --stdin [1ms]
+2024-07-17 11:22:22.366 [info] No remotes found in the git config file.
+2024-07-17 11:22:22.367 [info] > git config --get commit.template [4ms]
+2024-07-17 11:22:22.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:22.367 [warning] No such branch: main.
+2024-07-17 11:22:22.397 [info] > git status -z -uall [28ms]
+2024-07-17 11:22:22.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-17 11:22:22.422 [warning] No such branch: main.
+2024-07-17 11:22:23.487 [info] > git branch [1ms]
+2024-07-17 11:22:23.497 [info] > git rm --cached -r -- . [8ms]
+2024-07-17 11:22:23.497 [info] error: the following files have staged content different from both the
+file and the HEAD:
+    .vscode-server/data/logs/20240717T091611/exthost3/remoteexthost.log
+    .vscode-server/data/logs/20240717T091611/exthost3/vscode.git/Git.log
+(use -f to force removal)
+2024-07-17 11:22:23.502 [info] No remotes found in the git config file.
+2024-07-17 11:22:23.503 [info] > git config --get commit.template [3ms]
+2024-07-17 11:22:23.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:23.503 [warning] No such branch: main.
+2024-07-17 11:22:23.521 [info] > git status -z -uall [16ms]
+2024-07-17 11:22:23.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:22:23.549 [warning] No such branch: main.
+2024-07-17 11:22:27.924 [info] No remotes found in the git config file.
+2024-07-17 11:22:27.925 [info] > git config --get commit.template [3ms]
+2024-07-17 11:22:27.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:22:27.926 [warning] No such branch: main.
+2024-07-17 11:22:27.942 [info] > git status -z -uall [13ms]
+2024-07-17 11:22:27.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:22:27.967 [warning] No such branch: main.
+2024-07-17 11:22:32.975 [info] No remotes found in the git config file.
+2024-07-17 11:22:32.976 [info] > git config --get commit.template [5ms]
+2024-07-17 11:22:32.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:22:32.977 [warning] No such branch: main.
+2024-07-17 11:22:32.995 [info] > git status -z -uall [15ms]
+2024-07-17 11:22:33.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-07-17 11:22:33.018 [warning] No such branch: main.
+2024-07-17 11:22:38.937 [info] No remotes found in the git config file.
+2024-07-17 11:22:38.938 [info] > git config --get commit.template [3ms]
+2024-07-17 11:22:38.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:38.938 [warning] No such branch: main.
+2024-07-17 11:22:38.954 [info] > git status -z -uall [15ms]
+2024-07-17 11:22:38.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-17 11:22:38.983 [warning] No such branch: main.
+2024-07-17 11:22:43.988 [info] No remotes found in the git config file.
+2024-07-17 11:22:43.988 [info] > git config --get commit.template [2ms]
+2024-07-17 11:22:43.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:43.989 [warning] No such branch: main.
+2024-07-17 11:22:44.005 [info] > git status -z -uall [14ms]
+2024-07-17 11:22:44.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-17 11:22:44.030 [warning] No such branch: main.
+2024-07-17 11:22:49.036 [info] No remotes found in the git config file.
+2024-07-17 11:22:49.037 [info] > git config --get commit.template [3ms]
+2024-07-17 11:22:49.038 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:22:49.038 [warning] No such branch: main.
+2024-07-17 11:22:49.054 [info] > git status -z -uall [14ms]
+2024-07-17 11:22:49.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:22:49.081 [warning] No such branch: main.
+2024-07-17 11:22:54.094 [info] No remotes found in the git config file.
+2024-07-17 11:22:54.094 [info] > git config --get commit.template [7ms]
+2024-07-17 11:22:54.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:54.095 [warning] No such branch: main.
+2024-07-17 11:22:54.111 [info] > git status -z -uall [13ms]
+2024-07-17 11:22:54.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-17 11:22:54.137 [warning] No such branch: main.
+2024-07-17 11:22:59.142 [info] No remotes found in the git config file.
+2024-07-17 11:22:59.143 [info] > git config --get commit.template [2ms]
+2024-07-17 11:22:59.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:22:59.144 [warning] No such branch: main.
+2024-07-17 11:22:59.160 [info] > git status -z -uall [15ms]
+2024-07-17 11:22:59.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-17 11:22:59.184 [warning] No such branch: main.
+2024-07-17 11:23:04.193 [info] No remotes found in the git config file.
+2024-07-17 11:23:04.194 [info] > git config --get commit.template [4ms]
+2024-07-17 11:23:04.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:23:04.195 [warning] No such branch: main.
+2024-07-17 11:23:04.212 [info] > git status -z -uall [15ms]
+2024-07-17 11:23:04.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:23:04.236 [warning] No such branch: main.
+2024-07-17 11:23:09.240 [info] > git config --get commit.template [1ms]
+2024-07-17 11:23:09.243 [info] No remotes found in the git config file.
+2024-07-17 11:23:09.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-07-17 11:23:09.244 [warning] No such branch: main.
+2024-07-17 11:23:09.262 [info] > git status -z -uall [16ms]
+2024-07-17 11:23:09.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:23:09.286 [warning] No such branch: main.
+2024-07-17 11:23:14.295 [info] No remotes found in the git config file.
+2024-07-17 11:23:14.296 [info] > git config --get commit.template [5ms]
+2024-07-17 11:23:14.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 11:23:14.297 [warning] No such branch: main.
+2024-07-17 11:23:14.319 [info] > git status -z -uall [20ms]
+2024-07-17 11:23:14.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:23:14.344 [warning] No such branch: main.
+2024-07-17 11:23:19.967 [info] No remotes found in the git config file.
+2024-07-17 11:23:19.968 [info] > git config --get commit.template [6ms]
+2024-07-17 11:23:19.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:23:19.968 [warning] No such branch: main.
+2024-07-17 11:23:19.984 [info] > git status -z -uall [14ms]
+2024-07-17 11:23:20.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:23:20.012 [warning] No such branch: main.
+2024-07-17 11:23:20.032 [info] > git branch [1ms]
+2024-07-17 11:23:20.041 [info] > git rm --cached -r -- . [7ms]
+2024-07-17 11:23:20.041 [info] error: the following files have staged content different from both the
+file and the HEAD:
+    .vscode-server/data/logs/20240717T091611/exthost3/remoteexthost.log
+    .vscode-server/data/logs/20240717T091611/exthost3/vscode.git/Git.log
+(use -f to force removal)
+2024-07-17 11:23:20.046 [info] No remotes found in the git config file.
+2024-07-17 11:23:20.046 [info] > git config --get commit.template [2ms]
+2024-07-17 11:23:20.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:23:20.047 [warning] No such branch: main.
+2024-07-17 11:23:20.063 [info] > git status -z -uall [14ms]
+2024-07-17 11:23:20.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2024-07-17 11:23:20.098 [warning] No such branch: main.
+2024-07-17 11:23:25.027 [info] No remotes found in the git config file.
+2024-07-17 11:23:25.028 [info] > git config --get commit.template [11ms]
+2024-07-17 11:23:25.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:23:25.028 [warning] No such branch: main.
+2024-07-17 11:23:25.045 [info] > git status -z -uall [15ms]
+2024-07-17 11:23:25.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-07-17 11:23:25.070 [warning] No such branch: main.
+2024-07-17 11:23:30.076 [info] No remotes found in the git config file.
+2024-07-17 11:23:30.077 [info] > git config --get commit.template [3ms]
+2024-07-17 11:23:30.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:23:30.077 [warning] No such branch: main.
+2024-07-17 11:23:30.092 [info] > git status -z -uall [13ms]
+2024-07-17 11:23:30.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:23:30.114 [warning] No such branch: main.
+2024-07-17 11:23:35.119 [info] No remotes found in the git config file.
+2024-07-17 11:23:35.119 [info] > git config --get commit.template [2ms]
+2024-07-17 11:23:35.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:23:35.120 [warning] No such branch: main.
+2024-07-17 11:23:35.135 [info] > git status -z -uall [14ms]
+2024-07-17 11:23:35.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-07-17 11:23:35.156 [warning] No such branch: main.
+2024-07-17 11:23:40.165 [info] No remotes found in the git config file.
+2024-07-17 11:23:40.166 [info] > git config --get commit.template [4ms]
+2024-07-17 11:23:40.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 11:23:40.167 [warning] No such branch: main.
+2024-07-17 11:23:40.183 [info] > git status -z -uall [15ms]
+2024-07-17 11:23:40.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-07-17 11:23:40.210 [warning] No such branch: main.
+2024-07-17 12:22:19.813 [info] > git config --get commit.template [2ms]
+2024-07-17 12:22:19.817 [info] No remotes found in the git config file.
+2024-07-17 12:22:19.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 12:22:19.818 [warning] No such branch: main.
+2024-07-17 12:22:19.842 [info] > git status -z -uall [22ms]
+2024-07-17 12:22:19.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-07-17 12:22:19.897 [warning] No such branch: main.
+2024-07-17 12:22:24.896 [info] No remotes found in the git config file.
+2024-07-17 12:22:24.897 [info] > git config --get commit.template [5ms]
+2024-07-17 12:22:24.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 12:22:24.898 [warning] No such branch: main.
+2024-07-17 12:22:24.916 [info] > git status -z -uall [16ms]
+2024-07-17 12:22:24.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2024-07-17 12:22:24.958 [warning] No such branch: main.
