@@ -1,0 +1,37 @@
+2024-07-23 16:38:55.247 [info] 
+
+
+
+
+2024-07-23 16:38:55.269 [info] Extension host agent started.
+2024-07-23 16:38:55.334 [info] [<unknown>][cf5f8e4f][ManagementConnection] New connection established.
+2024-07-23 16:38:55.336 [info] [<unknown>][0a07e01a][ExtensionHostConnection] New connection established.
+2024-07-23 16:38:55.427 [info] [<unknown>][0a07e01a][ExtensionHostConnection] <1416> Launched Extension Host Process.
+2024-07-23 16:38:57.227 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-23 16:39:08.299 [info] [<unknown>][f5a96e4f][ManagementConnection] New connection established.
+2024-07-23 16:39:08.302 [info] [<unknown>][2377e58a][ExtensionHostConnection] New connection established.
+2024-07-23 16:39:08.304 [info] [<unknown>][2377e58a][ExtensionHostConnection] <1554> Launched Extension Host Process.
+2024-07-23 16:39:33.793 [info] [<unknown>][cf5f8e4f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-23 16:43:55.275 [info] New EH opened, aborting shutdown
+2024-07-23 16:43:55.275 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/username/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-23 16:44:09.014 [info] [<unknown>][0a07e01a][ExtensionHostConnection] <1416> Extension Host Process exited with code: 0, signal: null.
+2024-07-23 19:22:03.011 [info] [<unknown>][cf5f8e4f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-23 19:22:04.016 [error] Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-23 19:22:04.019 [error] Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
