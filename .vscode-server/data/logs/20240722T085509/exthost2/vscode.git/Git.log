@@ -1090,3 +1090,56 @@
 2024-07-22 16:49:19.862 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
 2024-07-22 16:49:19.865 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
 2024-07-22 16:49:19.865 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-22 16:49:20.460 [info] > git add -A -- . [59ms]
+2024-07-22 16:49:20.508 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [45ms]
+2024-07-22 16:49:20.511 [info] > git config --get commit.template [1ms]
+2024-07-22 16:49:20.520 [info] > git config --get commit.template [5ms]
+2024-07-22 16:49:20.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-22 16:49:20.545 [info] > git status -z -uall [18ms]
+2024-07-22 16:49:20.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-22 16:49:20.571 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-22 16:49:20.571 [warning] git config failed: Failed to execute git
+2024-07-22 16:49:20.575 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-07-22 16:49:20.578 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-07-22 16:49:20.578 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-22 16:49:20.582 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-07-22 16:49:20.587 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-22 16:49:20.593 [info] > git diff --name-status -z --diff-filter=ADMR 877c2c71ba5f1550acccbf3b2df4f52559726a0e...refs/remotes/origin/main [1ms]
+2024-07-22 16:49:20.632 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-07-22 16:49:20.638 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-07-22 16:49:22.062 [info] > git push origin main:main [1497ms]
+2024-07-22 16:49:22.062 [info] To https://github.com/yuwankang/username.git
+   877c2c7..ce91566  main -> main
+2024-07-22 16:49:22.071 [info] > git config --get commit.template [5ms]
+2024-07-22 16:49:22.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-22 16:49:22.109 [info] > git status -z -uall [32ms]
+2024-07-22 16:49:22.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-07-22 16:49:22.130 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-07-22 16:49:22.130 [warning] git config failed: Failed to execute git
+2024-07-22 16:49:22.139 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-07-22 16:49:22.148 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-07-22 16:49:22.148 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-22 16:49:22.152 [info] > git config --get commit.template [4ms]
+2024-07-22 16:49:22.152 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-07-22 16:49:22.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-22 16:49:22.163 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [9ms]
+2024-07-22 16:49:22.166 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-07-22 16:49:22.170 [info] > git diff --name-status -z --diff-filter=ADMR ce915669fbeb5e7f9ac6acc376b303d5babfa6dc...refs/remotes/origin/main [5ms]
+2024-07-22 16:49:22.171 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-22 16:49:22.187 [info] > git status -z -uall [14ms]
+2024-07-22 16:49:22.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-22 16:49:22.198 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-22 16:49:22.198 [warning] git config failed: Failed to execute git
+2024-07-22 16:49:22.203 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2024-07-22 16:49:22.208 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-07-22 16:49:22.208 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-22 16:49:24.869 [info] > git config --get commit.template [7ms]
+2024-07-22 16:49:24.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-22 16:49:24.901 [info] > git status -z -uall [27ms]
+2024-07-22 16:49:24.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-22 16:49:24.910 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-22 16:49:24.910 [warning] git config failed: Failed to execute git
+2024-07-22 16:49:24.914 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2024-07-22 16:49:24.916 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-07-22 16:49:24.916 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

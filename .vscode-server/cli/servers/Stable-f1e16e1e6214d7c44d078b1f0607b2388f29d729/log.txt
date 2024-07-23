@@ -5,19 +5,19 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-6449a28d-5225-49e0-849c-950a2e241fce
-Extension host agent listening on /tmp/code-6449a28d-5225-49e0-849c-950a2e241fce
+Server bound to /tmp/code-444931cd-ca32-4563-b5c2-508c54fb9c46
+Extension host agent listening on /tmp/code-444931cd-ca32-4563-b5c2-508c54fb9c46
 
-[08:55:09] 
-
-
+[08:25:08] 
 
 
-[08:55:09] Extension host agent started.
-[08:55:09] [<unknown>][f6e62845][ManagementConnection] New connection established.
-[08:55:09] [<unknown>][6ff12216][ExtensionHostConnection] New connection established.
-[08:55:09] [<unknown>][6ff12216][ExtensionHostConnection] <1557> Launched Extension Host Process.
-[08:55:20] [<unknown>][d2d0320c][ExtensionHostConnection] New connection established.
-[08:55:20] [<unknown>][d2d0320c][ExtensionHostConnection] <1731> Launched Extension Host Process.
-[08:55:20] [<unknown>][bb96f4c8][ManagementConnection] New connection established.
-[08:55:44] [<unknown>][f6e62845][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+
+
+[08:25:08] Extension host agent started.
+[08:25:08] [<unknown>][1ae8f368][ExtensionHostConnection] New connection established.
+[08:25:08] [<unknown>][a701fd5d][ManagementConnection] New connection established.
+[08:25:08] [<unknown>][1ae8f368][ExtensionHostConnection] <1645> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[08:30:08] New EH opened, aborting shutdown
+[13:18:03] No ptyHost heartbeat after 6 seconds
+[13:23:11] No ptyHost heartbeat after 6 seconds
